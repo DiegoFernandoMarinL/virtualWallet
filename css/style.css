@@ -1,0 +1,73 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSans-Regular";
+    box-sizing: border-box;
+}
+.header {
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-layout-lr);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.header__app {
+    /* background: red; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.header__app img {
+    width: 20px;
+}
+.article__nameApp {
+    display: flex;
+    /* background: orange; */
+    width: 120px;
+    justify-content: space-between;
+}
+.article__nameApp p {
+    font-family: "Poppins-SemiBold";
+}
+.article__nameApp img {
+    width: 30px;
+}
+.header__welcome {
+    /* background: gray; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.header__welcome h1 {
+    font-family: "Marstain";
+    font-size: 80px;
+}
+.header__welcome p {
+    /* background: yellow; */
+    font-size: 13px;
+    padding-top: 55px;
+    font-family: "Poppins-Regular";
+}
+.header__check {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.article__check {
+    /* background: pink; */
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.article__check p {
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+}
+.article__check span {
+
+}
+.article__check img {
+    width: 150px;
+}

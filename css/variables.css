@@ -1,0 +1,16 @@
+:root{
+    --space-layout-lr: 0px 15px 0 15px;
+}
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../storage/font/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Marstain";
+    src: url(../storage/font/Marstain/Marstain-nRB9M.ttf);
+}
+
