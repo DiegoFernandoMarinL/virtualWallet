@@ -81,7 +81,7 @@ body {
     border-radius: 50px;
     padding: var(--space-layout-tlr);
 }
-.section__content h3 {
+.article__activity h3 {
     font-family: "Poppins-SemiBold";
 }
 .article__activities {
