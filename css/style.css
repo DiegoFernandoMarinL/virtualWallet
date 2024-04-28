@@ -171,6 +171,9 @@ body {
     padding: var(--space-layout-lr);
     height: 80px;
 }
+.section__footer a {
+    display: flex;
+}
 .section__footer img {
     width: 30px;
 }
