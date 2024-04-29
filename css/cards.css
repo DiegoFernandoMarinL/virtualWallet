@@ -163,3 +163,34 @@ body {
     position: relative;
     width: 40px;
 }
+.footer {
+    background: red;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+.section__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-layout-lr);
+    height: 80px;
+}
+.section__footer a {
+    display: flex;
+}
+.section__footer img {
+    width: 30px;
+}
+.article__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: yellow; */
+    padding-top: 25px;
+}
+.article__footer img:first-child  {
+    padding-bottom: 8px;
+}
+.article__footer img:last-child {
+    width: 10px;
+}
