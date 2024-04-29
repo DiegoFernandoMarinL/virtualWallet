@@ -1,0 +1,39 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSans-Regular";
+    box-sizing: border-box;
+}
+body {
+    background: orange;
+}
+.header {
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-layout-lr);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.header__app {
+    /* background: red; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.header__app img {
+    width: 20px;
+}
+.article__nameApp {
+    display: flex;
+    /* background: orange; */
+    width: 120px;
+    justify-content: space-between;
+}
+.article__nameApp p {
+    font-family: "Poppins-SemiBold";
+}
+.article__nameApp img {
+    width: 30px;
+}
