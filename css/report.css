@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    /* background: orange; */
+    overflow: hidden;
 }
 .section__background {
     
@@ -53,7 +53,6 @@ body {
     position: relative;
     width: 30px;
 }
-
 .section__balance {
     /* background: yellow; */
     height: 200px;
@@ -114,7 +113,7 @@ body {
 }
 .section__graphic {
     padding: var(--space-layout-lr);
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .section__graphic img {
     width: 100%;
@@ -123,8 +122,68 @@ body {
     display: flex;
     justify-content: space-around;
 }
-.article__days h5 {
+.section__tips {
+    /* background: red; */
+    padding: var(--space-layout-lr);
+}
+.section__tips h3 {
+    font-family: "Poppins-SemiBold";
+    margin-bottom: 5px;
+}
+.article__items {
+    display: flex;
+    /* background: yellow; */
+    padding: 10px 0 10px 10px;
+}
+.tips__item {
+    display: flex;
+    justify-content: space-between;
+    /* background: yellow; */
+    border-radius: 15px;
+    height: 140px;
+    box-shadow: 0px 0px 15px -8px;
+    margin-right: 10px;
+    padding-right: 12px;
+}
+.tips__item img:first-child{
+    width: 140px;
+    margin-right: 20px;
+    background: green;
+    border-radius: 15px;
+    border-top-right-radius: 65px;
+    border-bottom-right-radius: 65px;
+    padding-right: 30px;
+}
+.tips__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tips__description h4,
+.tips__description small {
     font-family: "Poppins-Regular";
+}
+.tips__description h4 {
+    font-size: 20px;
+}
+.tips__description small {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.tips__description div {
+    background: red;
+    width: 123px;
+    height: 35px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+.tips__description div small {
+    font-size: 14px;
+}
+.tips__item img:last-child {
+    width: 30px;
+    align-self: flex-start;
 }
 .footer {
     background: red;
