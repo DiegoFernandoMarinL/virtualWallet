@@ -13,14 +13,14 @@ body {
 }
 .section__background img {
     width: 450px;
-    background: blue;
+    background: rgb(6, 6, 102);
     position: absolute;
     z-index: -1;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-    left: -35px;
+    left: -30px;
     top: -75px;
-    height: 300px;
+    height: 250px;
 }
 .header {
     /* background: green; */
@@ -55,17 +55,42 @@ body {
 }
 
 .section__balance {
-}
-.article__background {
-    background: red;
-}
-.article__background img {
-    position: absolute;
-    width: 250px;
+    /* background: yellow; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 .article__description {
+    background: red;
+    height: 180px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
 }
-
+.article__description h2 {
+    font-family: "Poppins-SemiBold";
+    font-size: 22px;
+    width: 100px;
+    text-align: center;
+    /* background: yellow; */
+}
+.article__description div small {
+    font-family: "Poppins-Regular";
+}
+.article__description div span {
+    font-family: "Poppins-SemiBold";
+    font-size: 23px;
+}
+.article__description div p {
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    text-align: center;
+}
 
 .footer {
     background: red;
