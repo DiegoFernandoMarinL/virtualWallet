@@ -6,7 +6,21 @@
     box-sizing: border-box;
 }
 body {
-    background: orange;
+    /* background: orange; */
+}
+.section__background {
+    
+}
+.section__background img {
+    width: 450px;
+    background: blue;
+    position: absolute;
+    z-index: -1;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    left: -35px;
+    top: -75px;
+    height: 300px;
 }
 .header {
     /* background: green; */
@@ -23,6 +37,7 @@ body {
     justify-content: space-between;
 }
 .header__app img {
+    position: relative;
     width: 20px;
 }
 .article__nameApp {
@@ -35,7 +50,20 @@ body {
     font-family: "Poppins-SemiBold";
 }
 .article__nameApp img {
+    position: relative;
     width: 30px;
+}
+
+.section__balance {
+}
+.article__background {
+    background: red;
+}
+.article__background img {
+    position: absolute;
+    width: 250px;
+}
+.article__description {
 }
 
 
