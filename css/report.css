@@ -94,6 +94,8 @@ body {
 }
 .section__bottons {
     /* background: red; */
+    padding: var(--space-layout-lr);
+    margin-bottom: 20px;
 }
 .article__bottons {
     display: flex;
@@ -109,6 +111,20 @@ body {
     font-family: "Poppins-Regular";
     font-size: 15px;
     border: 1px solid;
+}
+.section__graphic {
+    padding: var(--space-layout-lr);
+    margin-bottom: 5px;
+}
+.section__graphic img {
+    width: 100%;
+}
+.article__days {
+    display: flex;
+    justify-content: space-around;
+}
+.article__days h5 {
+    font-family: "Poppins-Regular";
 }
 .footer {
     background: red;
