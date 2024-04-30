@@ -71,6 +71,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 180px;
+    margin-bottom: 20px;
 }
 .article__description h2 {
     font-family: "Poppins-SemiBold";
@@ -91,7 +92,24 @@ body {
     font-size: 16px;
     text-align: center;
 }
-
+.section__bottons {
+    /* background: red; */
+}
+.article__bottons {
+    display: flex;
+    justify-content: space-around;
+}
+.article__bottons p {
+    /* background: yellow; */
+    width: 80px;
+    text-align: center;
+    height: 30px;
+    padding-top: 3px;
+    border-radius: 15px;
+    font-family: "Poppins-Regular";
+    font-size: 15px;
+    border: 1px solid;
+}
 .footer {
     background: red;
     bottom: 0;
