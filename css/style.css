@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    background: var(--color-1);
+    background: var(--color-3);
 }
 .section__background {
 
@@ -14,8 +14,8 @@ body {
 .section__background img {
     position: absolute;
     z-index: -1;
-    opacity: 25%;
-    width: 140%;
+    opacity: 30%;
+    width: 160%;
 }
 .header {
     /* background: green; */
@@ -33,6 +33,7 @@ body {
 }
 .header__app img {
     width: 20px;
+    filter: invert(100%);
 }
 .article__nameApp {
     display: flex;
@@ -41,18 +42,20 @@ body {
     justify-content: space-between;
 }
 .article__nameApp p {
+    color: var(--color-1);
     font-family: "Poppins-SemiBold";
 }
 .article__nameApp img {
     width: 30px;
 }
 .header__welcome {
+    color: var(--color-1);
     /* background: gray; */
     margin-bottom: 10px;
 }
-.header__welcome h1 {
+.header__welcome p:first-child {
     font-family: "Marstain";
-    font-size: 80px;
+    font-size: 90px;
     /* background: orange; */
 }
 .header__welcome p {
@@ -64,6 +67,7 @@ body {
     font-size: 23px;
 }
 .header__check {
+    color: var(--color-1);
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -87,16 +91,16 @@ body {
 }
 .article__check img {
     width: 150px;
-    filter: invert(10%);
 }
 
 .section__content {
-    background: white;
+    background: var(--color-1);
     height: auto;
     overflow: scroll;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     padding: var(--space-layout-tlrb);
+    color: var(--color-3);
 }
 .article__activity h3 {
     font-family: "Poppins-SemiBold";
@@ -109,8 +113,7 @@ body {
     padding: 10px 0 10px 10px;
 }
 .article__item {
-    /* background: white; */
-    display: flex;
+    background: var(--color-1);    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -118,7 +121,7 @@ body {
     padding: 18px;
     margin-right: 16px;
     border-radius: 15px;
-    box-shadow: 0px 0px 15px -8px;
+    box-shadow: 0px 0px 25px -8px;
 }
 .article__item img {
     width: 60px;
