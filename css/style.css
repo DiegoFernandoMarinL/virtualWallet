@@ -6,7 +6,16 @@
     box-sizing: border-box;
 }
 body {
-    background: orange;
+    background: var(--color-1);
+}
+.section__background {
+
+}
+.section__background img {
+    position: absolute;
+    z-index: -1;
+    opacity: 40%;
+    width: 140%;
 }
 .header {
     /* background: green; */
@@ -48,7 +57,7 @@ body {
 }
 .header__welcome p {
     /* background: yellow; */
-    font-size: 13px;
+    font-size: 17px;
     font-family: "Poppins-Regular";
 }
 .header__check {
@@ -72,7 +81,7 @@ body {
 }
 .article__check img {
     width: 150px;
-    filter: invert(100%);
+    filter: invert(10%);
 }
 
 .section__content {
@@ -94,7 +103,7 @@ body {
     padding: 10px 0 10px 10px;
 }
 .article__item {
-    /* background: yellowgreen; */
+    /* background: white; */
     display: flex;
     flex-direction: column;
     justify-content: center;

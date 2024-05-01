@@ -1,6 +1,7 @@
 :root{
     --space-layout-lr: 0px 15px 0 15px;
     --space-layout-tlrb: 25px 15px 80px 15px;
+    --color-1: #FFFFFF;
 }
 @font-face {
     font-family: "Poppins-SemiBold";
