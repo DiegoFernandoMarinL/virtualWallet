@@ -7,6 +7,7 @@
 }
 body {
     background: var(--color-3);
+    overflow-x: hidden;
 }
 .section__background {
 
@@ -14,7 +15,7 @@ body {
 .section__background img {
     position: absolute;
     z-index: -1;
-    opacity: 30%;
+    opacity: 25%;
     width: 160%;
 }
 .header {
@@ -178,19 +179,22 @@ body {
 }
 
 .footer {
-    background: red;
+    background: var(--color-3);
     bottom: 0;
     width: 100%;
     position: fixed;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 .section__footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: var(--space-layout-lr);
     height: 80px;
 }
 .section__footer a {
     display: flex;
+    opacity: 15%;
 }
 .section__footer img {
     width: 30px;
