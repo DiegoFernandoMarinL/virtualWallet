@@ -14,7 +14,7 @@ body {
 .section__background img {
     position: absolute;
     z-index: -1;
-    opacity: 40%;
+    opacity: 25%;
     width: 140%;
 }
 .header {
@@ -60,6 +60,9 @@ body {
     font-size: 17px;
     font-family: "Poppins-Regular";
 }
+.header__welcome p:last-child {
+    font-size: 23px;
+}
 .header__check {
     display: flex;
     width: 100%;
@@ -73,11 +76,14 @@ body {
     margin-bottom: 8px;
 }
 .article__check p {
-    font-family: "Poppins-Regular";
+    font-family: "Poppins-SemiBold";
     font-size: 20px;
 }
 .article__check span {
-
+    font-family: "Poppins-Regular";
+}
+.article__check span strong {
+    font-family: "Poppins-Regular";
 }
 .article__check img {
     width: 150px;
