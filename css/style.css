@@ -10,13 +10,14 @@ body {
     overflow-x: hidden;
 }
 .section__background {
-
+    
 }
 .section__background img {
     position: absolute;
     z-index: -1;
     opacity: 25%;
     width: 160%;
+    /* object-fit: cover; */
 }
 .header {
     /* background: green; */
@@ -195,7 +196,7 @@ body {
 }
 .section__footer a {
     display: flex;
-    opacity: 15%;
+    opacity: 50%;
 }
 .section__footer img {
     width: 30px;

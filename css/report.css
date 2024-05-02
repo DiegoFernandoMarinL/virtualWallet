@@ -217,7 +217,7 @@ body {
 }
 .section__footer a {
     display: flex;
-    opacity: 15%;
+    opacity: 50%;
 }
 .section__footer img {
     width: 30px;
