@@ -108,6 +108,9 @@ body {
     padding: var(--space-layout-tlrb);
     color: var(--color-3);
 }
+.article__activity {
+    margin-bottom: 15px;
+}
 .article__activity h3 {
     font-family: "Poppins-SemiBold";
 }
@@ -178,6 +181,9 @@ body {
 }
 .trans__item h4 {
     font-size: 15px;
+}
+.trans__item {
+    width: 150px;
 }
 .trans__item small {
     font-size: 12px;
