@@ -142,6 +142,7 @@ body {
     opacity: 20%;
     height: 100%;
     position: absolute;
+    border-radius: 20px;
 }
 .cards__itemtop {
     display: flex;
