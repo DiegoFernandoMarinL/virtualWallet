@@ -131,9 +131,10 @@ body {
     margin-right: 15px;
     position: relative;
     opacity: 30%;
+    transition: all 0.5s ease;
 }
 .article__card:hover {
-    opacity: 1040%;
+    opacity: 100%;
 }
 .article__card img {
     width: 100%;
@@ -185,7 +186,7 @@ body {
     position: fixed;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    box-shadow: 0px 0px 25px -2px var(--color-1);
+    box-shadow: 0px 0px 25px 1px var(--color-1);
 }
 .section__footer {
     display: flex;

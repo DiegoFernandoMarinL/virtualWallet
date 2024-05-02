@@ -6,19 +6,23 @@
     box-sizing: border-box;
 }
 body {
-    overflow: hidden;
+    overflow-x: hidden;
+    background: var(--color-1);
 }
 .section__background {
-    
-}
-.section__background img {
-    width: 100%;
-    background: rgb(6, 6, 102);
+    background: var(--color-3);
     position: absolute;
     z-index: -1;
     border-bottom-left-radius: 80%;
     border-bottom-right-radius: 80%;
-    top: -75px;
+    top: -40px;
+}
+.section__background img {
+    width: 100%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 80%;
+    top: -40px;
+    opacity: 25%;
 }
 .header {
     /* background: green; */
@@ -27,6 +31,7 @@ body {
     padding: var(--space-layout-lr);
     padding-top: 8px;
     padding-bottom: 8px;
+    color: var(--color-1);
 }
 .header__app {
     /* background: red; */
@@ -37,6 +42,7 @@ body {
 .header__app img {
     position: relative;
     width: 20px;
+    filter: invert(100%);
 }
 .article__nameApp {
     display: flex;
@@ -58,9 +64,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    color: var(--color-3);
 }
 .article__description {
-    background: red;
+    background: var(--color-2);
     height: 180px;
     border-radius: 100%;
     display: flex;
@@ -97,6 +104,7 @@ body {
 .article__bottons {
     display: flex;
     justify-content: space-around;
+    color: var(--color-3);
 }
 .article__bottons p {
     /* background: yellow; */
@@ -107,7 +115,13 @@ body {
     border-radius: 15px;
     font-family: "Poppins-Regular";
     font-size: 15px;
-    border: 1px solid;
+    border: 2px solid var(--color-3);
+    opacity: 100%;
+    transition: all 0.5s ease;
+}
+.article__bottons p:hover {
+    color: var(--color-1);
+    background: var(--color-3);
 }
 .section__graphic {
     padding: var(--space-layout-lr);
@@ -120,9 +134,13 @@ body {
     display: flex;
     justify-content: space-around;
 }
+.article__days h5 {
+    font-family: "Poppins-Regular";
+}
 .section__tips {
-    /* background: red; */
+    background: var(--color-2);
     padding: var(--space-layout-lr);
+    padding-bottom: 70px;
 }
 .section__tips h3 {
     font-family: "Poppins-SemiBold";
@@ -131,7 +149,7 @@ body {
 .article__items {
     display: flex;
     /* background: yellow; */
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 10px 0px;
 }
 .tips__item {
     display: flex;
@@ -139,17 +157,11 @@ body {
     /* background: yellow; */
     border-radius: 15px;
     height: 140px;
-    box-shadow: 0px 0px 15px -8px;
-    margin-right: 10px;
     padding-right: 12px;
 }
 .tips__item img:first-child{
     width: 140px;
-    margin-right: 20px;
-    background: green;
-    border-radius: 15px;
-    border-top-right-radius: 65px;
-    border-bottom-right-radius: 65px;
+    margin-right: 5px;
     padding-right: 30px;
 }
 .tips__description {
@@ -162,19 +174,24 @@ body {
     font-family: "Poppins-Regular";
 }
 .tips__description h4 {
+    color: var(--color-3);
     font-size: 20px;
 }
 .tips__description small {
-    font-size: 15px;
+    color: var(--color-3);
+    font-size: 12px;
     margin-bottom: 10px;
 }
 .tips__description div {
-    background: red;
+    background: var(--color-3);
     width: 123px;
     height: 35px;
     text-align: center;
     border-radius: 20px;
     padding-top: 5px;
+}
+.tips__description div small {
+    color: var(--color-1);
 }
 .tips__description div small {
     font-size: 14px;
@@ -184,19 +201,23 @@ body {
     align-self: flex-start;
 }
 .footer {
-    background: red;
+    background: var(--color-3);
     bottom: 0;
     width: 100%;
     position: fixed;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px 0px 25px 1px var(--color-3);
 }
 .section__footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: var(--space-layout-lr);
     height: 80px;
 }
 .section__footer a {
     display: flex;
+    opacity: 15%;
 }
 .section__footer img {
     width: 30px;
